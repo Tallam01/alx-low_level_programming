@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * main - Task 0. _putchar
+ * main - print putchar,  then a nw line
  *
- * prints _putchar, followed by a new line.
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
@@ -18,5 +16,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
